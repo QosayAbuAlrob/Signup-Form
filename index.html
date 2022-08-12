@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>Signup Form Task</title> </head>
+    <link rel="stylesheet" href="Signup-Form.css">
+    <body>
+        <h1>Signup Form</h1>
+        <br>
+        <form action="https://formspree.io/f/xwkzerop" method="post">
+            <div>
+                <label for="First name">First name</label>
+                <input id="First name" type="text" placeholder="First name" required name="First name">
+            </div>
+            <br>
+            <div>
+                <label for="Last name">Last name</label>
+                <input id="Last name" type="text" placeholder="Last name" required name="Last name">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email</label>
+                <input id="Email" type="email" placeholder="Email" required name="Email">
+            </div>
+            <br>
+            <div>
+                <label for="Pass">Password</label>
+                <input id="pass" type="password" placeholder="password" required minlength="8" name="Password">
+            </div>
+            <br>
+            <div>
+                <label for="Phone">Phone</label>
+                <input id="Phone" type="tel"  placeholder="phone" name="Phone number" required>
+            </div>
+            <br>
+            <div>
+                <label for="Date Of Birth">Date Of Birth</label>
+                <input id="Date Of Birth"type="date" name="Date Of Birth">
+            </div>
+            <br>
+            <div>
+                <label>Country</label>
+                <select  name="Country" id="100000">
+                    <optgroup label="MENA Region">
+                    <option value="1">Algeria</option>
+                    <option value="2">Bahrain</option>
+                    <option value="3">Egypt</option>
+                    <option value="4">Iran</option>
+                    <option value="5">Iraq</option>
+                    <option value="6">Palestine</option>
+                    <option value="7">Jordan</option>
+                    <option value="8">Kuwait</option>
+                    <option value="9">Lebanon</option>
+                    <option value="10">Libya</option>
+                    <option value="11">Morocco</option>
+                    <option value="12">Oman</option>
+                    <option value="13">Qatar</option>
+                    <option value="14">Saudi Arabia</option>
+                    <option value="15">Syria</option>
+                    <option value="16">Tunisia</option>
+                    <option value="17">United Arab Emirates</option>
+                    <option value="18">Yemen</option>
+                    </optgroup>   
+                </select>
+            </div>
+            <br>
+            <div class="plan">
+                <label>Plan:</label>
+                <input id="Free" type="radio" name="Plan" value="Free">
+                <label for="Free">Free</label>
+                <input id="pro" type="radio" name="Plan" value="Pro">
+                <label for="pro">Pro</Pro>
+            </div>
+            <br>
+            <div>
+                <input id="checkbox" type="checkbox" name="Terms" value="I agree to terms and conditions">
+                <label for="checkbox">I agree to terms and conditions</label>
+            </div>
+            <br>
+            <input type="Submit" value="Submit">
+        </form>
+    </body>
+</html>
